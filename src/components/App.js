@@ -16,6 +16,7 @@ const App = () => {
 
   return (
     <div>
+      <p>Enter your name:</p>
        <input  type="text" id="inputField" placeholder="Press Enter" onKeyUp={disp} />
     <div >
         <p>{text}</p>
